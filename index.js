@@ -10,6 +10,8 @@ client.on('ready', () => {
   client.user.setActivity("Uptempo", {
     type: ActivityType.Listening
   })
+  //Set to idle
+  client.user.setStatus('idle')
 
 
 });
